@@ -64,7 +64,7 @@ To obtain the `firebase_credentials.json` file and configure it in your Laravel 
    - Click "Generate new private key."
    - A `firebase_credentials.json` file will be downloaded to your computer.
 
-**2. Store `firebase_credentials.json` in Your Laravel Project**
+**Step 3: Store `firebase_credentials.json` in Your Laravel Project**
 
 1. **Move the `firebase_credentials.json` file:**
    - Move the `firebase_credentials.json` file to the `storage/app/` directory in your Laravel project. You can also choose another location, but the `storage/app/` directory is commonly used.
@@ -80,7 +80,7 @@ To obtain the `firebase_credentials.json` file and configure it in your Laravel 
 
 Now that you have the Firebase credentials, you can configure Firebase in your Laravel application.
 
-**4. Testing Your Configuration**
+**Step 4. Testing Your Configuration**
 
 You can test whether the Firebase integration is working correctly by triggering a notification:
 
